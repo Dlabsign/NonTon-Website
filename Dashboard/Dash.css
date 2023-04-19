@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* =============================== PENTING =============================== */
+
+.kosong {
+    width: 25%;
+}
+
+.dashboard {
+    width: 80%;
+    background-color: #FCFFFF;
+    padding: 25px 30px 0px 30px;
+}
+
+/* =============================== TOP BAR =============================== */
+
+
+.top-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* =============================== TOP SEARCH BAR =============================== */
+
+.top-left-bar {
+    width: 42vw;
+    height: 52px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 500px;
+    background: #EEEFF4;
+}
+.top-left-bar img {
+    padding: 0px 20px ;
+}
+
+.top-left-bar input {
+    width: 90%;
+    height: 52px;
+    font-family: 'inter';
+    font-size: 14px;
+    color: #000;
+    border-radius: 0px 50px 50px 0px ;
+    background: none;
+    border: none;
+}
+
+
+/* =============================== TOP RIGHT BAR =============================== */
+
+
+.top-right-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25vw;
+    height: 52px;
+    display: flex;
+    font-size: 15px;
+    font-family: 'inter';
+}
+
+/* =============================== NOTIF =============================== */
+
+.top-right-bar .notif-area {
+    padding: 0px 20px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    opacity: .6;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.notif-area a {
+    font-size: 13px;
+    font-family: 'inter';
+    margin-right: 7px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* =============================== PROFILE =============================== */
+
+.top-right-bar .profile {
+    display: flex;
+    width: 160px;
+    display: flex;
+    height: 52px;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+.profile p {
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.profile .circle {
+    border: .5px solid;
+    width: 48px;
+    height: 48px;
+    border-radius: 200px;
+}
+
+/* =============================== BANNER =============================== */
+
+.banner-image {
+    border-radius: 15px;
+    margin-top: 27px;
+    width: 100%;
+    height: 286px;
+    background-position: 50px 100px;
+    background-color: #000;
+    box-sizing: border-box;
+}
+
+.banner-img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 152px -20px;
+    overflow: hidden;
+}
+
+.gradient {
+    max-width: 100%;
+    height: 286px;
+    position: absolute;
+    top: 77px;
+}
+
+.banner-image .gradient img{
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: -52px 0px;
+    margin-top: 27px;
+    background: linear-gradient(90deg, #101010 26.27%, rgba(16, 16, 16, 0) 43.45%);
+    height: 286px;
+    max-width: 100%;
+
+}
+
+/* =============================== BANNER HEADLINE =============================== */
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: absolute;
+    top: 23%;
+    left: 5%;
+    color: white;
+}
+
+.headline h1 {
+    font-size: 32px;
+    font-family: 'inter';
+    font-weight: 800;
+    line-height: 35px;
+    margin-bottom: 4px;
+}
+
+/* =============================== BANNER RATING =============================== */
+
+.headline-row-rating {
+    display: flex;
+    align-items: center;
+}
+
+.headline-row-rating object {
+    height: 13.4px;
+    margin: 0px 1.2px;
+}
+
+.txt1 {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 12px;
+    color: #fff;
+    opacity: .6;
+    letter-spacing: 1px;
+}
+
+.txt2 {
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 4px;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+/* =============================== BANNER PARAGRAPH =============================== */
+
+
+.headline-para {
+    font-family: 'inter';
+    font-weight: 300;
+    color: #fff;
+    margin-top: 9px;
+    letter-spacing:1px;
+    width: 250px;
+    font-size: 10px;
+    opacity: .9;
+    height: 60px;
+    overflow: hidden;
+}
+
+.btn-headline {
+    width: 140px;
+    height: 32px;
+    margin-top: 17px;
+    letter-spacing: .6;
+    border: none;
+    background-color: #4339F2;
+    font-size: 12px;
+    border-radius: 0px 3px 3px 0px;
+    font-family: 'inter';
+    font-weight: 500;
+    color: #e4e4e4;
+}
+
+/* =============================== ROW TIME PLAY =============================== */
+
+
+.row-opsi-movie-container {
+    margin-top: 18px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 48px;
+}
+
+
+/* =============================== ROW TIME LEFT =============================== */
+
+
+.row-time-left {
+    display: flex;
+    align-items: center;
+    width: 47%;
+    color: #000000;
+}
+
+.row-time-left a {
+    font-family: 'inter';
+    text-decoration: none;
+    letter-spacing: .5px;
+}
+
+.opsitxt1 {
+    font-size: 22px;
+    margin-right: 24px;
+    color: #1b1b1b;
+}
+
+.opsitxt2 {
+    font-size: 18px;
+    color: #b4b4b4;
+}
+
+/* =============================== ROW TIME RIGHT =============================== */
+
+
+.row-time-right {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.row-time-right select  { 
+    height: 42px;
+    padding: 0px 12px;
+    font-size: 12.5px;
+    border: none;
+    font-family: 'inter';
+    font-weight: 500;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+.row-jam {
+    margin-right: 20px;
+}
+
+/* =============================== BOX CONTAINER =============================== */
+
+.row-menu-container {
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.row-menu-container h3 {
+    font-family: 'inter';
+    font-size: 24px;
+    padding-left: 7px;
+}
+
+.menu-head{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.menu-head .line {
+    width: 83%;
+    padding-right: 7px;
+    border: 1.2px solid #b6b6b6;
+}
+
+
+section .box-row{
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    height: auto;
+}
+
+/* =============================== BOX =============================== */
+
+.menu-second-list {
+    margin-top: 5px;
+}
+
+section .box-row {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid #000; */
+    height: auto;
+}
+
+.menu-third-list{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    margin: 7px 0px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.box-image {
+    width: 157px;
+    height: 206px;
+    background-color: #cfcece;
+    border-radius: 6px;
+}
+
+.box-image img {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 6px;
+    height: 100%;
+}
+
+.box-headline h4{
+    margin: 6px 0px 16px 5px;
+    font-size: 16.6px;
+    font-family: 'inter';
+    font-weight: 800;
+    letter-spacing: .4px;
+    color: #161616;
+    width: 146px;
+    text-align: left;
+}
+
+
+.box-container:hover {
+    box-shadow: 0px 5px 12px 0px rgba(74, 90, 238, 0.3) ;
+}

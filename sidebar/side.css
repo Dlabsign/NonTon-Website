@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* =============================== PENTING =============================== */
+
+.container-sidebar{
+    padding: 25px 60px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+
+.sidebarside {
+    height: auto;
+    background-color:#f0f0f0;
+    width: 290px;
+    position: fixed;
+}
+
+/* =============================== LOGO NAVBAR =============================== */
+
+.sidebar-brand {
+    width: 153px;
+    position: relative;
+    left: 64px;
+}
+
+.sidebar-brand img {
+    width: 155px;
+}
+
+/* =============================== TOP NAVBAR =============================== */
+
+.navTop {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 26px; */
+}
+
+/* =============================== BOTTOM NAVBAR =============================== */
+
+.navBottom {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 42px;
+}
+
+
+/* =============================== NAV MENU =============================== */
+
+.nav-container button {
+    border: none;
+    display: flex;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    padding-left: 72px;
+    width: 260px;
+    height: 46px;
+    background-color: #f0f0f0;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+}
+
+.nav-container button a {
+    font-family: 'inter';
+    text-decoration: none;
+    color: #818181;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: .5px;
+}
+
+.nav-container button:hover {
+    background-color: #e4e4e4;
+}
+
+.nav-container button object {
+    margin-right: 17px;
+}
+
+
+
+/* =============================== EDIT AREA =============================== */
+

@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-coloumn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100vh;
+}
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 2px;
+    border: 1px solid;
+    height: auto;
+    width: 420px;
+}
+
+
+/* ================================== HEADLINE ================================== */
+
+.headline {
+    text-align: center;
+    font-family: 'inter';
+}
+
+.headline h1 {
+    font-size: 32px;
+    font-weight: 900;
+    color: #000;
+    margin-bottom: 0px;
+}
+
+.headline p {
+    font-weight: 400;
+    color: #969696;
+    letter-spacing: .1px;
+    font-size: 11px;
+}
+
+
+
+/* ================================== FORM INPUT ================================== */
+
+form {
+    margin: 30px 0px 0px;
+}
+    
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    letter-spacing: .5px;
+}
+
+.form h3 {
+    font-family: 'inter';
+    font-weight: 500;
+    font-size: 13.2px;
+    margin: 0px 0px 3px 10px;
+    color: #1d1d1d;
+}
+
+form input {
+    width: 281px;
+    padding: 0px 0px 0px 12px;
+    height: 43px;
+    background-color: #F5F5F5;
+    border: 1px solid #A6A6A6;
+    border-radius: 200px;
+}
+
+
+form input::placeholder{
+    font-weight: 500;
+    font-size: 12.5px;
+    color: #A6A6A6;
+    font-family: 'inter';
+}
+
+
+
+/* ================================== USERNAME ================================== */
+
+.input-user {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ================================== EMAIL ================================== */
+
+.input-email {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ================================== PASSWORD ================================== */
+
+.input-pass {
+    margin-bottom: 16px;
+}
+
+.input-pass2 {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+/* ================================== ERROR ================================== */
+
+.errorname-msg {
+    font-size: 12px;
+    color: #f52c2c;
+    font-family: 'inter';
+    letter-spacing: normal;
+    font-weight: 500;
+    margin: 4px 0px 0px 10px;
+}
+
+.erroremail-msg {
+    font-size: 12px;
+    color: #f52c2c;
+    font-family: 'inter';
+    letter-spacing: normal;
+    font-weight: 500;
+    margin: 4px 0px 0px 10px;
+}
+
+.errorpass-msg {
+    font-size: 12px;
+    color: #f52c2c;
+    font-family: 'inter';
+    letter-spacing: normal;
+    font-weight: 500;
+    margin: 4px 0px 0px 10px;
+}
+
+
+
+/* ================================== BOTTOM TEXT ================================== */
+
+.bottom-text {
+    padding: 0px 8px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 7px;
+    font-family: 'inter';
+    font-weight: 400;
+    letter-spacing: .2px;
+}
+
+.bottom-text a {
+    text-decoration: none;
+    color: #8a8a8a;
+    font-weight: 500;
+    font-family: 'inter';
+}
+
+.bottom-text a:hover {
+    color: #1d1d1d;
+}
+
+.bottom-text span {
+    position: absolute;
+    left: 27px;
+}
+
+.bottom-text input {
+    width: 15px;
+    height: 15px;
+}
+
+/* ================================== LOGIN BUTTON ================================== */
+
+.login-button {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-button input {
+    width: 281px;
+    height: 43px;
+    background-color: #F5F5F5;
+    border: 1px solid #A6A6A6;
+    cursor: pointer;
+    border-radius: 200px;
+}
+
+.login-button button {
+    width: 281px;
+    padding: 0px 0px 0px 12px;
+    height: 43px;
+    border-radius: 200px;
+    font-family: 'inter';
+    font-size: 12.5px;
+    color: #1d1d1d;
+    font-weight: 600;
+    border: 1px solid #A6A6A6;
+    letter-spacing: .2px;
+    margin-top: 8px;
+}
+
+.login-button img {
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+}
+
+.btn-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-fer {
+    margin-top: 10px;
+    font-size: 12.4px;
+    color: #808080;
+    font-family: 'inter';
+    font-weight: 700;
+}
+
+.account-fer a{
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+
+
+
+.banner2 {
+    border: 1px solid;
+    width: 50%;
+    background-image: url(Signup/Banner2.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
