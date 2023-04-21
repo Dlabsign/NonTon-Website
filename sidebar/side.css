@@ -60,6 +60,11 @@ body {
 
 /* =============================== NAV MENU =============================== */
 
+ul.nav-container {
+    padding: 200px;
+    margin: 1000px;
+}
+
 .nav-container button {
     border: none;
     display: flex;

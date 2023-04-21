@@ -12,97 +12,26 @@
 <body>
     
 
+    <!-- <div class="kosong"></div> -->
+
     
-
-    <section class="sidebarside">
-        <div class="container-sidebar">
-            <div class="navTop" id="Logo">
-                <div class="sidebar-brand">
-                    <object
-                    type="image/svg+xml"
-                    data="sidebar/img/icon/Logo.svg"
-                    ></object>
-                </div>
-
-                <ul class="nav-container">
-                    <button id="dashBtn" style="background-color: #4339f2">
-                        <object type="image/svg+xml" data="sidebar/img/icon/Home-after.svg" id="after"></object>
-                        <a href="dashboard.php" style="color: #fafafa;" id="txtButton">Dashboard</a>
-                    </button>
-                    <button id="ticketBtn" onclick="redirectTicket()">
-                        <object
-                            type="image/svg+xml"
-                            data="sidebar/img/icon/ticket-Before.svg"
-                        ></object>
-                    <a href="ticket.php" id="txtButton">Ticket</a>
-                    </button>
-                    <button id="movieBtn" onclick="redirectMovie()">
-                        <object
-                            type="image/svg+xml"
-                            data="sidebar/img/icon/movie-Before.svg"
-                        ></object>
-                        <a href="movie.php" id="txtButton">Movie</a>
-                    </button>
-                    <button id="pesanBtn" onclick="redirectPemesanan()">
-                        <object type="image/svg+xml" data="sidebar/img/icon/transaction-Before.svg"></object>
-                        <a href="pemesanan.php" id="txtButton">Pemesanan</a>
-                    </button>
-                    <button id="lokasiBtn" onclick="redirectLokasi()">
-                        <object type="image/svg+xml" data="sidebar/img/icon/location-Before.svg"></object>
-                        <a href="lokasi.php" id="txtButton">Lokasi</a>
-                    </button>
-                </ul>
-
-            <script>
-                function redirectTicket() {
-                    window.location.href = "Ticket.php";
-                }
-                function redirectMovie() {
-                    window.location.href = "Movie.php";
-                }
-                function redirectPemesanan() {
-                    window.location.href = "Pemesanan.php";
-                }
-                function redirectLokasi() {
-                    window.location.href = "Lokasi.php";
-                }
-                function redirectLokasi() {
-                    window.location.href = "Lokasi.php";
-                }
-            </script>
-        </div>
-
-            <div class="navBottom">
-                <div class="nav-container">
-                    <ul>
-                        <button id="signBtn">
-                            <object
-                            type="image/svg+xml"
-                            data="sidebar/img/icon/signin-Before.svg"
-                            ></object>
-                            <a href="#">Sign In</a>
-                        </button>
-                        <button id="stngsBtn">
-                            <object
-                            type="image/svg+xml"
-                            data="sidebar/img/icon/setting-Before.svg"
-                            ></object>
-                            <a href="#">Settings</a>
-                        </button>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <div class="kosong"></div>
     
     <section class="mvmenu">
         <div class="top-bar">
+            
             <div class="top-left-bar">
                 <a class="btn-back" href="dashboard.php">
                     <img src="mvMenu/img/Back.svg" alt="">
                 </a>
+            </div>
+
+            <div class="top-left-bar">
+                <img src="Dashboard/img/searchBar.svg" alt="" />
+                <input
+                    type="text"
+                    name="search"
+                    placeholder="Cari Film yang Sedang tayang"
+                />
             </div>
             <div class="top-right-bar">
                 <div class="notif" href="#">
@@ -124,7 +53,7 @@
         <div class="mvmenu-head">
             <div class="mvmenu-left">
                 <div class="mvmenu-head-banner">
-                    <img src="" alt="">
+                    <img src="https://m.media-amazon.com/images/M/MV5BMTlmYTFkNTMtYWMyYy00NTdlLWEwZTctOWJlYzYzYmQ5OGJlXkEyXkFqcGdeQXVyNDc0Njc1NTY@._V1_FMjpg_UX1000_.jpg" alt="">
                 </div>
                 <div class="mvmenu-head-fill">
                     <div class="head-headline">
@@ -143,36 +72,206 @@
             </div>
 
             <div class="mvmenu-right">
-                <div class="mvmenu-rating">
+                <div class="mvmenu-left-txt">
                     <p>Rating</p>
-                    <p class="rating-bold">4.5 <span><img src="" alt=""></span></p>
-                </div>
-                <div class="mvmenu-duration">
                     <p>Durasi</p>
-                    <p class="duration-bold">4.5</p>
-                </div>
-                <div class="mvmovie-genre">
                     <p>Genre</p>
-                    <p class="genre-bold">4.5</p>
-                </div>
-                <div class="mvmovie-usia">
                     <p>Usia</p>
-                    <p class="usia-bold">19</p>
-                    
+                    <p>Trailer</p>
                 </div>
-                <div class="mvmovie-trailer">
-                    <div class="trailer-img"><img src="" alt=""></div>
-                    <button class="btn-fill">Watch Trailer</button>
+                <div class="mvmenu-right-txt">
+                    <div class="rating">
+                        <p>4.5</p>
+                        <object data="Dashboard/img/banner-rating.svg" type=""></object>
+                        <object data="Dashboard/img/banner-rating.svg" type=""></object>
+                        <object data="Dashboard/img/banner-rating.svg" type=""></object>
+                        <object data="Dashboard/img/banner-rating.svg" type=""></object>
+                    </div>
+                    <p>82 Menit</p>
+                    <p>Komedi, Drama</p>
+                    <p>18+</p>
+                    <div class="box-trailer">
+                        <img src="" alt="">
+                        <button class="btn-fill">Watch Trailer</button>
+                    </div>
                 </div>
                 
+            </div>
+        </div>
+
+
+        <div class="mvmenu-list">
+            <div class="list-date">
+                <button class="box-date" id="select">
+                    <p>SENIN</p>
+                    <h4>12 APR</h4>
+                </button>
+                <button class="box-date">
+                    <p>SELASA</p>
+                    <h4>13 APR</h4>
+                </button>
+                <button class="box-date">
+                    <p>RABU</p>
+                    <h4>14 APR</h4>
+                </button>
+                <button class="box-date">
+                    <p>KAMIS</p>
+                    <h4>15 APR</h4>
+                </button>
+                <button class="box-date">
+                    <p>JUMAT</p>
+                    <h4>16 APR</h4>
+                </button>
+                <button class="box-date">
+                    <p>SABTU</p>
+                    <h4>17 APR</h4>
+                </button>
+                <button class="box-date">
+                    <p>MINGGU</p>
+                    <h4>18 APR</h4>
+                </button>
+            </div>
+
+            <div class="mvmenu-option">
+                <select name="mvmenu-lokasi" id="">
+                    <option value="Sidoarjo">Sidoarjo</option>
+                    <option value="Surabaya">Surabaya</option>
+                    <option value="Jakarta">Jakarta</option>
+                    <option value="Bandung">Bandung</option>
+                </select>
+                <select name="mvmenu-cinema" id="">
+                    <option value="cgv">CGV</option>
+                    <option value="xxi">Cinema XXI</option>
+                    <option value="cineplex">Cineplex</option>
+                </select>
+                <div class="line"></div>
+            </div>
+            
+            <div class="mvmenu-container">
+
+                <div class="mvmenu-row-container">
+                    <div class="container-left-menu">
+                        <div class="mvmenu-container-headline">
+                            <h3>CINEPOLIS</h3>
+                            <h4 class="headline-lokasi">LIPPO PLAZA SIDOARJO</h4>
+                            <button>Reguler</button>
+                        </div>
+
+                        <div class="mvmmenu-container-coloumn-menu">
+                            <div class="mvmenu-clock">
+                                <button class="1">10.00</button>
+                                <button class="2">13.25</button>
+                                <button class="3">16.15</button>
+                                <button class="4">18.30</button>
+                            </div>
+        
+                            <div class="mvmenu-ticket">
+                                <div class="harga-tket">
+                                    <button>Pilih Kursi</button>
+                                    <p>50.000</p>
+                                </div>
+                                <p id="information">(2 TIket)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right-btn">
+                        <button class="BookBtn">Booking Ticket</button>
+                    </div>
+                </div>
                 
+                <div class="mvmenu-row-container">
+                    <div class="container-left-menu">
+                        <div class="mvmenu-container-headline">
+                            <h3>CINEPOLIS</h3>
+                            <h4 class="headline-lokasi">LIPPO PLAZA SIDOARJO</h4>
+                            <button>Reguler</button>
+                        </div>
+
+                        <div class="mvmmenu-container-coloumn-menu">
+                            <div class="mvmenu-clock">
+                                <button class="1">10.00</button>
+                                <button class="2">13.25</button>
+                                <button class="3">16.15</button>
+                                <button class="4">18.30</button>
+                            </div>
+        
+                            <div class="mvmenu-ticket">
+                                <div class="harga-tket">
+                                    <button>Pilih Kursi</button>
+                                    <p>50.000</p>
+                                </div>
+                                <p id="information">(2 TIket)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right-btn">
+                        <button class="BookBtn">Booking Ticket</button>
+                    </div>
+                </div>
+
+                <div class="mvmenu-row-container">
+                    <div class="container-left-menu">
+                        <div class="mvmenu-container-headline">
+                            <h3>CINEPOLIS</h3>
+                            <h4 class="headline-lokasi">LIPPO PLAZA SIDOARJO</h4>
+                            <button>Reguler</button>
+                        </div>
+
+                        <div class="mvmmenu-container-coloumn-menu">
+                            <div class="mvmenu-clock">
+                                <button class="1">10.00</button>
+                                <button class="2">13.25</button>
+                                <button class="3">16.15</button>
+                                <button class="4">18.30</button>
+                            </div>
+        
+                            <div class="mvmenu-ticket">
+                                <div class="harga-tket">
+                                    <button>Pilih Kursi</button>
+                                    <p>50.000</p>
+                                </div>
+                                <p id="information">(2 TIket)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right-btn">
+                        <button class="BookBtn">Booking Ticket</button>
+                    </div>
+                </div>
+                
+                <div class="mvmenu-row-container">
+                    <div class="container-left-menu">
+                        <div class="mvmenu-container-headline">
+                            <h3>CINEPOLIS</h3>
+                            <h4 class="headline-lokasi">LIPPO PLAZA SIDOARJO</h4>
+                            <button>Reguler</button>
+                        </div>
+
+                        <div class="mvmmenu-container-coloumn-menu">
+                            <div class="mvmenu-clock">
+                                <button class="1">10.00</button>
+                                <button class="2">13.25</button>
+                                <button class="3">16.15</button>
+                                <button class="4">18.30</button>
+                            </div>
+        
+                            <div class="mvmenu-ticket">
+                                <div class="harga-tket">
+                                    <button>Pilih Kursi</button>
+                                    <p>50.000</p>
+                                </div>
+                                <p id="information">(2 TIket)</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-right-btn">
+                        <button class="BookBtn">Booking Ticket</button>
+                    </div>
+                </div>
             </div>
 
 
         </div>
-
-
-
 
     </section>
 
