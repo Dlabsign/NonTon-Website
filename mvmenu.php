@@ -153,7 +153,7 @@
                     <div class="container-left-menu">
                         <div class="mvmenu-container-headline">
                             <h3>CINEPOLIS</h3>
-                            <h4 class="headline-lokasi">LIPPO PLAZA SIDOARJO</h4>
+                            <h4 class="headline-lokasi">EXAMPLE</h4>
                             <button>Reguler</button>
                         </div>
 
@@ -183,7 +183,7 @@
                     <div class="container-left-menu">
                         <div class="mvmenu-container-headline">
                             <h3>CINEPOLIS</h3>
-                            <h4 class="headline-lokasi">LIPPO PLAZA SIDOARJO</h4>
+                            <h4 class="headline-lokasi">EXAMPLE</h4>
                             <button>Reguler</button>
                         </div>
 
@@ -213,7 +213,7 @@
                     <div class="container-left-menu">
                         <div class="mvmenu-container-headline">
                             <h3>CINEPOLIS</h3>
-                            <h4 class="headline-lokasi">LIPPO PLAZA SIDOARJO</h4>
+                            <h4 class="headline-lokasi">EXAMPLE</h4>
                             <button>Reguler</button>
                         </div>
 
@@ -243,7 +243,7 @@
                     <div class="container-left-menu">
                         <div class="mvmenu-container-headline">
                             <h3>CINEPOLIS</h3>
-                            <h4 class="headline-lokasi">LIPPO PLAZA SIDOARJO</h4>
+                            <h4 class="headline-lokasi">EXAMPLE</h4>
                             <button>Reguler</button>
                         </div>
 
