@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="sidebar/side.css">
+    <link rel="stylesheet" href="mvMenu/mvmenu.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
     
@@ -92,6 +94,91 @@
             </div>
         </div>
     </section>
+
+    <div class="kosong"></div>
+    
+    <section class="mvmenu">
+        <div class="top-bar">
+            <div class="top-left-bar">
+                <a class="btn-back" href="dashboard.php">
+                    <img src="mvMenu/img/Back.svg" alt="">
+                </a>
+            </div>
+            <div class="top-right-bar">
+                <div class="notif" href="#">
+                    <button class="notif-area">
+                    <a href="#">Notifikasi</a>
+                    <img src="Dashboard/img/Bell-Notif.svg" alt="" />
+                    </button>
+                </div>
+                <div class="profile">
+                <p>John Doe</p>
+                <div class="circle">
+                    <img src="" alt="" />
+                </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="mvmenu-head">
+            <div class="mvmenu-left">
+                <div class="mvmenu-head-banner">
+                    <img src="" alt="">
+                </div>
+                <div class="mvmenu-head-fill">
+                    <div class="head-headline">
+                        <h3>The House Of No Man</h3>
+                        <div class="head-cast">
+                            <p id="cast"><Span>Director   : </Span>John Doe</p>
+                            <p id="cast"><Span>Cast       : </Span>Adam Drive, Ariana GreenBalt</p>
+                        </div>
+                    </div>
+                    <div class="head-btn">
+                        <button class="btn-fill">Beli Tiket</button>
+                        <button class="btn-outline">Order Tiket</button>
+                    </div>
+                    <p class="head-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate optio excepturi molestias, sit in voluptatem cumque, inventore distinctio voluptates, totam ratione ducimus quos error ipsam praesentium. Maiores minus odio enim rerum atque? Sequi commodi animi dolor, sunt minima mollitia perferendis incidunt earum dolorum.</p>
+                </div>
+            </div>
+
+            <div class="mvmenu-right">
+                <div class="mvmenu-rating">
+                    <p>Rating</p>
+                    <p class="rating-bold">4.5 <span><img src="" alt=""></span></p>
+                </div>
+                <div class="mvmenu-duration">
+                    <p>Durasi</p>
+                    <p class="duration-bold">4.5</p>
+                </div>
+                <div class="mvmovie-genre">
+                    <p>Genre</p>
+                    <p class="genre-bold">4.5</p>
+                </div>
+                <div class="mvmovie-usia">
+                    <p>Usia</p>
+                    <p class="usia-bold">19</p>
+                    
+                </div>
+                <div class="mvmovie-trailer">
+                    <div class="trailer-img"><img src="" alt=""></div>
+                    <button class="btn-fill">Watch Trailer</button>
+                </div>
+                
+                
+            </div>
+
+
+        </div>
+
+
+
+
+    </section>
+
+
+
+
 
 </body>
 </html>

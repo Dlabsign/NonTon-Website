@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* =============================== PENTING =============================== */
+
+.kosong {
+    width: 25%;
+}
+
+.mvmenu {
+    width: 80%;
+    background-color: #FCFFFF;
+    padding: 25px 30px 0px 30px;
+}
+
+/* =============================== TOP BAR =============================== */
+
+
+.top-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* =============================== TOP SEARCH BAR =============================== */
+
+.top-left-bar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+/* =============================== TOP BACK BTN =============================== */
+.btn-back {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.btn-back img {
+    width:30px;
+}
+
+
+.top-left-bar input {
+    width: 90%;
+    height: 52px;
+    font-family: 'inter';
+    font-size: 14px;
+    color: #000;
+    border-radius: 0px 50px 50px 0px ;
+    background: none;
+    border: none;
+}
+
+
+/* =============================== TOP RIGHT BAR =============================== */
+
+
+.top-right-bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25vw;
+    height: 52px;
+    display: flex;
+    font-size: 15px;
+    font-family: 'inter';
+}
+
+/* =============================== NOTIF =============================== */
+
+.top-right-bar .notif-area {
+    padding: 0px 20px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    opacity: .6;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.notif-area a {
+    font-size: 13px;
+    font-family: 'inter';
+    margin-right: 7px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+/* =============================== PROFILE =============================== */
+
+.top-right-bar .profile {
+    display: flex;
+    width: 160px;
+    display: flex;
+    height: 52px;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 15px;
+}
+
+.profile p {
+    font-weight: 700;
+    margin-right: 15px;
+}
+
+.profile .circle {
+    border: .5px solid;
+    width: 48px;
+    height: 48px;
+    border-radius: 200px;
+}
+
+
+
+
+
+
+/* =============================== MVMENU =============================== */
+
+.mvmenu-head {
+    border: 1px solid;
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 7px;
+}
+
+
+/* =============================== MVMENU BANNER =============================== */
+
+
+.mvmenu-head-banner {
+    width: 242px;
+    height: 300px;
+    border: 1px solid;
+}
+
+/* =============================== MVMENU LEFT =============================== */
+
+.mvmenu-left {
+    display: flex;
+    border: 1px solid;
+}
+
+.mvmenu-head-fill {
+    margin-left: 22px;
+    font-family: 'inter';
+}
+
+/* =============================== MVMENU LEFT TEXT =============================== */
+
+
+.head-headline h3 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+
+/* =============================== MVMENU LEFT CAST =============================== */
+
+
+.head-cast p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.head-cast span {
+    color: #5a5a5a;
+    font-weight: 400;
+}
+
+
+
+/* =============================== MVMENU LEFT BTN =============================== */
+
+.head-btn {
+    width: 100;
+}
+
+.btn-fill  {
+    width: 100px;
+    height: 32px;
+    letter-spacing: .6;
+    border: none;
+    background-color: #4339F2;
+    font-size: 14px;
+    border-radius: 3.4px;
+    font-weight: 500;
+    color: #e4e4e4;
+    margin-right: 12px;
+}
+
+.btn-outline  {
+    width: 100px;
+    height: 32px;
+    letter-spacing: .6;
+    border: none;
+    background-color: #dadada;
+    font-size: 14px;
+    border-radius: 3.4px;
+    font-weight: 500;
+    color: #161616;
+}
+
+/* =============================== MVMENU LEFT PARA =============================== */
+
+.head-para {
+    margin-top: 12px;
+    width: 300px;
+    height: 130px;
+    font-size: 12.6px;
+    overflow: hidden;
+}
+
